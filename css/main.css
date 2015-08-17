@@ -2,6 +2,7 @@
 
 body {
     background-color: #19D175;
+    font-family: "Work Sans" sans-serif;
 }
 
 .header {
@@ -11,6 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: inset 0 0 .5em black;
 }
 
 .logo {
@@ -29,11 +31,42 @@ body {
 }
 
 .links a {
+    transition: all 1.0s ease;
     color: #FFFFFF;
     padding: 1em;
+}
+
+.links a:hover {
+    color: #19D175;
 }
 
 .navbar-custom {
     background-color: #333333;
     border-radius: 0;
+    border: 0;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    transition: all 1.0s ease;
+    float: none;
+    display: inline-block;
+}
+
+.navbar-nav > li:hover {
+    background-color: #19D175;
+}
+
+.nav.navbar-nav li a{
+    font-size: 1em;
+    letter-spacing: .2em;
+    color: white;
+}
+
+.btn-custom {
+    margin: 
 }
