@@ -1,0 +1,39 @@
+/* Hello There */
+
+body {
+    background-color: #19D175;
+}
+
+.header {
+    background-color: #666666; 
+    color: #FFFFFF;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    font-family: "Pacifico" cursive;
+    font-size: 48px;
+    text-align: center;
+    padding: 1em;
+}
+
+.rikin {
+    color: #19D175;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    color: #FFFFFF;
+    padding: 1em;
+}
+
+.navbar-custom {
+    background-color: #333333;
+    border-radius: 0;
+}
