@@ -1,3 +1,3 @@
 # My Personal Website
 
-[Check it out](rahkeen.github.io)
+[Check it out](www.rikinmarfatia.me)

@@ -1,4 +1,4 @@
-var colors = ["#4747FF", "#E84343", "#19D175"];
+var colors = ["#BDD684", "#95AB63"];
 var index = 0;
 
 $(function () {
