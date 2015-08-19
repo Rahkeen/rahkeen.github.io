@@ -1,0 +1,19 @@
+<div class="row content">
+    <div class="col-md-12 text-center">
+        <h1>PROJECTS</h1>
+        <hr class="projects-page-hr">
+    </div>
+    <div ng-repeat="project in projects" class="col-md-4">
+        <div class="panel panel-default panel-default-custom">
+            <div class="panel-heading panel-heading-projects text-center">
+                <h4>{{ project.title }}</h4>
+            </div>
+            <div class="panel-body panel-body-projects">
+                {{ project.description }}
+            </div>
+            <div class="panel-footer">
+                <a ng-href="{{ project.link }}">Link</a>
+            </div>
+        </div>
+    </div>
+</div>
