@@ -46,7 +46,7 @@ hr {
 }
 
 .links a:hover {
-    color: #30e849;
+    color: #e8e230;
 }
 
 .navbar-custom {
@@ -83,6 +83,10 @@ hr {
     font-size: 1em;
     letter-spacing: .2em;
     color: white;
+}
+
+.animate-view.ng-enter, .animate-view.ng-leave {
+    transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s;
 }
 
 .content {
@@ -138,6 +142,16 @@ hr {
 
 .well-body .about-color {
     color: #30e849;
+}
+
+.animate-enter {
+	-webkit-transition: 1s linear all; /* Chrome */
+	transition: 1s linear all;
+	opacity: 0;
+}
+ 
+.animate-enter.animate-enter-active {
+	opacity: 1;
 }
 
 
