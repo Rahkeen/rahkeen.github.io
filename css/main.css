@@ -46,7 +46,7 @@ hr {
 }
 
 .links a:hover {
-    color: #e8e230;
+    color: #CACCCE;
 }
 
 .navbar-custom {
@@ -100,7 +100,6 @@ hr {
 }
 
 .panel-default {
-    min-height: 20em;
     background-color: #545454;
 }
 
@@ -111,7 +110,7 @@ hr {
 }
 
 .panel-default > .panel-body-projects {
-    min-height: 20em;
+    min-height: 10em;
     background-color: #545454;
     color: #FFFFFF;
 }
