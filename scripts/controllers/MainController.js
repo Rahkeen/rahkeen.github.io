@@ -16,9 +16,9 @@ app.controller('MainController', ['$scope', function($scope) {
             link: "http://www.fixdapp.com"
         },
         {
-            title: "MORE TO COME",
-            description: "Got some projects in the works, as well as this site which is still under construction.",
-            link: ""
-        }
+            title: "Quack",
+            description: "A simple DuckDuckGo Instant Answers client for Android",
+            link: "https://play.google.com/store/apps/details?id=me.rikinmarfatia.quack"
+        },
     ]
 }]);
